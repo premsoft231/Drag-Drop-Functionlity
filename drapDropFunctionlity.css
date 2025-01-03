@@ -1,0 +1,28 @@
+.c-container {
+    border: 1px solid #d8dde6;
+    margin: 10px 0 20px 0;
+}
+.custom-box {
+    text-align: center;
+    background-color: #f4f6f9;
+    padding: 1rem;
+    border: 1px solid #d8dde6;
+}
+.drag {
+    border-style: solid dotted;
+    opacity: 0.20;
+}
+.over{
+    border-style: solid dotted;
+    border-color: green;
+}
+[data-role="drop-target"] {
+    min-height: 150px; /* Adjust as needed */
+    border: 2px dashed #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
+[data-role="drop-target"].over {
+    border-color: #0070d2;
+    background-color: #f4f6f9;
+}
